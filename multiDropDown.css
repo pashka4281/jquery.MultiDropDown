@@ -1,0 +1,78 @@
+.multiDropdown-wrapper .multiDrop {
+    /*    width: 300px;*/
+    font-size: 11px;
+    min-height: 20px;
+    margin-bottom: 5px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    display: inline-block;
+    min-width: 284px;
+    padding: 4px 10px 4px 4px;
+    font-size: 13px;
+    line-height: 21px;
+    color: gray;
+    border: 1px solid #CCC;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    background-image: url(/images/arrow_down.png);
+    background-repeat: no-repeat;
+    background-position: 98% center;
+}
+.multiDropdown-wrapper .multiDrop .multiDropdown-selected-items-container ul {
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    width: 260px;
+    display: block;
+    position: absolute;
+    white-space: nowrap;
+    resize: none;
+}
+.multiDropdown-wrapper .multiDrop .multiDropdown-selected-items-container ul li {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 1px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #CCC;
+    background-color: #F0F0F0;
+}
+.multiDropdown-wrapper div.multiDropdown-items-list-container {
+    display: none;
+    width: 290px;
+    position: absolute;
+    z-index: 999999;
+    background-color: #DDD;
+    margin-left: 11px;
+    margin-top: -6px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 110px;
+    border: 1px solid #888;
+}
+.multiDropdown-wrapper div.multiDropdown-items-list-container.collapsed {
+    display: block;
+}
+.multiDropdown-wrapper div.multiDropdown-items-list-container ul {
+    list-style: none;
+    margin: 0;
+}
+.multiDropdown-wrapper div.multiDropdown-items-list-container ul li {
+    padding: 3px 3px 0 3px;
+    border-bottom: 1px solid  #DDD;
+}
+.multiDropdown-wrapper div.multiDropdown-items-list-container ul li.selected {
+    background-color: #0064CD;
+    color: white;
+    border-bottom: 1px solid #CCC;
+}
+.multiDropdown-wrapper div.multiDropdown-items-list-container ul li input {
+    width: auto !important;
+    display: inline-block;
+    min-height: 0 !important;
+    margin-right: 3px;
+}
